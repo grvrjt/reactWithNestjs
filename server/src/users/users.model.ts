@@ -12,5 +12,5 @@ export default class User {
   firstName: string;
 
   @prop({ type: String, required: [true, 'Last Name is required'] })
-  description?: string;
+  lastName: string;
 }
